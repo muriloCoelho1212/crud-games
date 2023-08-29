@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Edição</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="header__link-title">
+            <h1 class="header__title">Lista de games</h1>
+            <img src="../assets/gameController.svg" alt="Ícone de um JoyStick" class="header__icon">
+        </a>
+        <div class="header__container-menu">
+            <ul class="header__menu">
+                <li class="header__lista-menu"><a href="./register.html" class="header__link-menu">Cadastrar</a></li>
+                <li class="header__lista-menu"><a href="./view.html" class="header__link-menu">Visualizar</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Section Edit -->
+    <section class="section__edit">
+        <div class="section__form-container">
+            <form class="form" data-form>
+                <div class="section__form">
+                    <div class="form__data">
+                        <div class="form__input-container">
+                            <label for="name-game" class="form__labels">Nome:</label>
+                            <input type="text" id="name-game" data-input-name class="form__inputs">
+                        </div>
+                        <div class="form__input-container">
+                            <label for="gender-game" class="form__labels">Gênero:</label>
+                            <input type="text" id="gender-game" data-input-age class="form__inputs">
+                        </div>
+                        <div class="form__input-container">
+                            <label for="date-game" class="form__labels">Lançamento:</label>
+                            <input type="date" id="date-game" data-input-age class="form__inputs form__input-lancamento" placeholder="dd/mm/aaaa">
+                        </div>
+                        <div class="form__input-container">
+                            <label for="plat-game" class="form__labels">Plataforma:</label>
+                            <input type="text" id="plat-game" data-input-age class="form__inputs">
+                        </div>
+                        <div class="form__input-container">
+                            <label for="desc-game" class="form__labels">Descrição:</label>
+                            <input type="text" id="desc-game" data-input-age class="form__inputs">
+                        </div>
+                    </div>
+                    <div class="form__img-data">
+                        <div class="form__input-container">
+                            <label for="img-game" class="form__labels">Capa:</label>
+                            <input type="file" id="img-game" data-input class="form__inputs form__input-file">
+                        </div>
+                        <div class="form__img-container">
+                            <img src="../assets/capaGodOfWar.png" alt="Capa do jogo" class="form__img">
+                            <h4 class="form__title-game">God Of War II</h4>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Enviar" id="form__input-submit">
+            </form>
+        </div>
+    </section>
+</body>
+</html>

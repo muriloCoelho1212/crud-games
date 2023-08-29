@@ -1,0 +1,99 @@
+/* Global Section */
+
+.section__register{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-color);
+}
+
+.section__form-container{
+    background-color: var(--roxo);
+    border-radius: 2em;
+}
+
+.section__form{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding: 2em;
+}
+
+.form{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Data Section */
+
+.form__data{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 80%;
+}
+
+/* Img Section */
+
+.form__img-data{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__img{
+    width: 200px;
+    height: 300px;
+    border-radius: 1em;
+    margin: 1em 0;
+    border: 2px solid var(--lilas);
+    box-shadow: 3px 3px var(--preto);
+}
+
+.form__title-game{
+    color: var(--font-color);
+    font-size: 1.4em;
+}
+
+/* Input Section */
+
+.form__input-container{
+    display: flex;
+    gap: 1em;
+}
+
+.form__labels{
+    font: 1.6em sans-serif;
+    color: var(--font-color);
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.form__inputs{
+    font: 1.6em sans-serif;
+    border-radius: .5em;
+    border: none;
+    padding: .5em;
+    width: 100%;
+}
+
+#form__input-submit{
+    background-color: var(--lilas);
+    color: var(--preto);
+    padding: .8em;
+    font: 1.4em sans-serif;
+    border: none;
+    border-radius: .5em;
+    width: 20%;
+}

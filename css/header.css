@@ -1,0 +1,37 @@
+header{
+    background-color: var(--roxo);
+    color: var(--font-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.header__link-title{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.header__menu{
+    display: flex;
+    gap: 2em;
+}
+
+.header__title{
+    font: 2em sans-serif;
+}
+
+.header__link-menu{
+    color: var(--font-color);
+    text-decoration: none;
+    font: 2em sans-serif;
+}
+
+.header__link-menu:hover{
+    color: var(--lilas);
+    text-decoration: underline;
+    transition: .5s;
+}
