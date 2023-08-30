@@ -28,29 +28,29 @@
                     <div class="form__data">
                         <div class="form__input-container">
                             <label for="name-game" class="form__labels">Nome:</label>
-                            <input type="text" id="name-game" data-input-name class="form__inputs">
+                            <input type="text" id="name-game" data-input-title class="form__inputs">
                         </div>
                         <div class="form__input-container">
                             <label for="gender-game" class="form__labels">Gênero:</label>
-                            <input type="text" id="gender-game" data-input-age class="form__inputs">
+                            <input type="text" id="gender-game" data-input-gender class="form__inputs">
                         </div>
                         <div class="form__input-container">
                             <label for="date-game" class="form__labels">Lançamento:</label>
-                            <input type="date" id="date-game" data-input-age class="form__inputs form__input-lancamento" placeholder="dd/mm/aaaa">
+                            <input type="date" id="date-game" data-input-lanc class="form__inputs form__input-lancamento" placeholder="dd/mm/aaaa">
                         </div>
                         <div class="form__input-container">
                             <label for="plat-game" class="form__labels">Plataforma:</label>
-                            <input type="text" id="plat-game" data-input-age class="form__inputs">
+                            <input type="text" id="plat-game" data-input-plat class="form__inputs">
                         </div>
                         <div class="form__input-container">
                             <label for="desc-game" class="form__labels">Descrição:</label>
-                            <input type="text" id="desc-game" data-input-age class="form__inputs">
+                            <input type="text" id="desc-game" data-input-desc class="form__inputs">
                         </div>
                     </div>
                     <div class="form__img-data">
                         <div class="form__input-container">
                             <label for="img-game" class="form__labels">Capa:</label>
-                            <input type="file" id="img-game" data-input class="form__inputs form__input-file">
+                            <input type="file" id="img-game" data-input-img class="form__inputs form__input-file">
                         </div>
                         <div class="form__img-container">
                             <img src="../assets/capaGodOfWar.png" alt="Capa do jogo" class="form__img">
@@ -62,6 +62,7 @@
             </form>
         </div>
     </section>
-    <!-- <script src="../js/main.js"></script> -->
+    <script type="module" src="../js/server.js"></script>
+    <script type="module" src="../js/registerGame.js"></script>
 </body>
 </html>
