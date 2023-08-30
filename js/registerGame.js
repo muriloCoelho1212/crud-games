@@ -14,16 +14,12 @@ async function createGame(e){
         img: document.querySelector('[data-input-img]').value
     }
 
-    if(game.title.length >= 11){
-        
-    }
-
     try{
         await connectDB.createGame(game)
-
         form.reset()
     } catch (e){
-        alert(e)
+        document.querySelector('.section__register').innerHTML = `<h2 class="list__erro">Não foi possível carregar os vídeos</h2>`
+        console.log(e)
     }
 }
 

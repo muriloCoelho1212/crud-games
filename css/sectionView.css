@@ -87,12 +87,3 @@
 .footer__item{
     font: bold .9em sans-serif
 }
-
-/* Mensagens de erro */
-
-.list__erro{
-    font: bold 2em sans-serif;
-    color: var(--cor-erro);
-    text-align: center;
-    margin-top: 2em;
-}

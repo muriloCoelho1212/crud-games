@@ -27,7 +27,14 @@
     </section>
     <!-- Section view -->
     <section class="section__view">
-        <ul class="view__list" data-cards></ul>
+        <ul class="view__list" data-cards>
+            <div class="modal-overlay" id="errorModal">
+                <div class="modal">
+                  <h2 class="lista_erro">Não foi possível carregar a lista de jogos.</h2>
+                  <p>Clique fora deste modal para recarregar a página.</p>
+                </div>
+            </div>
+        </ul>
     </section>
     <script type="module" src="../js/server.js"></script>
     <script type="module" src="../js/showGames.js"></script>
