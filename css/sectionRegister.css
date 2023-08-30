@@ -56,8 +56,8 @@
     height: 300px;
     border-radius: 1em;
     margin: 1em 0;
-    border: 2px solid var(--lilas);
-    box-shadow: 3px 3px var(--preto);
+    border: 1px solid var(--cinza-claro);
+    box-shadow: 2px 2px var(--roxo);
 }
 
 .form__title-game{
@@ -86,14 +86,20 @@
     border: none;
     padding: .5em;
     width: 100%;
+    background-color: var(--cinza-claro);
+}
+
+.form__input-file{
+    background-color: transparent;
 }
 
 #form__input-submit{
-    background-color: var(--lilas);
-    color: var(--preto);
     padding: .8em;
     font: 1.4em sans-serif;
     border: none;
     border-radius: .5em;
     width: 20%;
+    cursor: pointer;
+    background-color: var(--font-color);
+    color: var(--preto);
 }

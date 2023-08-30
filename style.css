@@ -4,11 +4,11 @@
 @import url("./css/sectionView.css");
 
 :root{
-    --background: #424242d2;
+    --background: #13181b;
     --font-color: #ecebeb;
-    --roxo: #3a0069;
-    --lilas: #dfa8ff;
-    --preto: #1a1a1a;
+    --cinza-claro: #a5a5a5;
+    --roxo: #307ea6;
+    --preto: #2d363d;
 }
 
 *{
@@ -18,7 +18,6 @@
 }
 
 html{
-    width: 100vw;
     height: 100vh;
     background-color: var(--background);
 }
